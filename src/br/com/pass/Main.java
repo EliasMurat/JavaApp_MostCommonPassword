@@ -1,4 +1,4 @@
-package br.com.csm32;
+package br.com.pass;
 
 import java.io.File;
 import java.util.Collection;
