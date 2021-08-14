@@ -24,14 +24,16 @@ public class Main {
         }
         
         //Scanner para ler a senha do usuario
+        //Simulação de cenario real
         Scanner scnUser = new Scanner(System.in);
         System.out.println("||==========|| Cadastro ||==========||");
         System.out.print("|| Nome: ");
         String username = scnUser.nextLine();
         System.out.print("|| Senha: ");
         String password = scnUser.nextLine();
- 
-        //Verifica se a senha do usuario eh umas das senhas mais usadas
+        scnUser.close();
+
+        //Verifica se a senha do usuario eh umas das senhas mais usadas / senha fraca
         if (passwords.contains(password))
             System.out.println("|| Essa senha é muito fraca");
         else
