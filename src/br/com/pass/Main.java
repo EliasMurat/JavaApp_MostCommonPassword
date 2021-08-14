@@ -37,7 +37,7 @@ public class Main {
         if (passwords.contains(password))
             System.out.println("|| Essa senha é muito fraca");
         else
-            System.out.println("|| Cadastro realizado com sucesso");
+            System.out.println("|| " + username + " seu cadastro foi realizado com sucesso");
         
         System.out.println("||==================================||");
     }
